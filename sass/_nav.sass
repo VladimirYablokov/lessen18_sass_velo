@@ -1,0 +1,31 @@
+nav
+	width: 100%
+	box-sizing: border-box
+	position: fixed
+	top: 0
+	display: flex
+	justify-content: space-between
+	padding: 50px 150px
+	align-items: center
+	z-index: 10
+	ul
+		display: flex
+		list-style: none
+
+		li
+			margin-left: 20px
+			font-family: 'ABeeZee'
+			font-style: normal
+			font-weight: 400
+			font-size: 20px
+			line-height: 16px
+			text-align: center
+
+			a
+				padding: 50px
+
+				&:hover
+					text-decoration: underline
+
+	.contact-button
+		@include mix-button

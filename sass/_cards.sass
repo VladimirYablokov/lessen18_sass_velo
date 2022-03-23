@@ -1,0 +1,67 @@
+#cards
+	display: grid
+	grid-template-columns: repeat(3, 1fr)
+	grid-template-rows: repeat(2, 1fr)
+
+
+	div
+		padding: 70px
+		padding-top: 120px
+
+		&:before
+			content: ''
+			position: absolute
+			border-bottom: 3px solid white
+			width: 27%
+
+#cards div p
+	font-family: ABeeZee
+	font-size: 32px
+	font-style: italic
+	font-weight: 400
+	line-height: 34px
+	letter-spacing: -0.006em
+	text-align: left
+	color:$light-font-color
+	padding-top: 55px
+	// text-align: center
+
+#cards div p:before
+		content: '•'
+		color: yellow
+		padding-right: 50px
+
+
+div>p+p
+	text-align: right
+			
+div.card1
+	background-color: #22356F
+	height: 450px
+
+
+div.card2
+	background-color: #0052C1
+	height: 450px
+
+
+div.card3
+	background-color: #76B58B
+	height: 450px
+
+
+div.card4
+	background-color: #62D0DF
+	height: 450px
+
+
+div.card5
+	background-color: #BE4F92
+	height: 450px
+
+
+div.card6
+	background-color: #8F00FF
+	height: 450px
+
+
